@@ -92,3 +92,50 @@ body{
     margin-top: 10px ;
     display: none;
 }
+
+@media (max-width:470px){
+    .search button{
+        border: none;
+        outline: none;
+        background: #ebfffc;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        cursor: pointer;
+    }
+}
+@media (max-width:450px){
+    .search button{
+        border: none;
+        outline: none;
+        background: #ebfffc;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        cursor: pointer;
+    }
+    .search button img{
+        width: 14px;
+    }
+}
+
+@media (max-width:380px){
+    .card{
+        width: 80%;
+    }
+    .card .search input{
+        width: 100%;
+    }
+    .card .search input::placeholder{
+        font-size: 9px;
+        font-weight: 900;
+    }
+    .col img{
+        width:30px;
+        margin-right: 2px;
+    }
+    .humidity, .wind{
+        font-size: 20px;
+        margin-top: -4px;
+    }
+}
